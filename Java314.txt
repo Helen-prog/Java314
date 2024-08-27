@@ -1,0 +1,19 @@
+TCP (Transmission Control Protocol) 
+UDP (User Datagram Protocol)
+
+Datagram Socket
+Datagram Packet
+
+Received.java
+Sender.java
+
+
+JDBC (Java Database Connectivity)
+
+CREATE DATABASE users;
+
+executeQuery (SELECT)
+executeUpdate (изменение данных)
+execute
+
+ReservationSystem
