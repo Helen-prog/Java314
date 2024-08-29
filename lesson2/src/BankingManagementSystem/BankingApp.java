@@ -16,6 +16,7 @@ public class BankingApp {
             Scanner input = new Scanner(System.in);
             User user = new User(connection, input);
             Accounts accounts = new Accounts(connection, input);
+            AccountManager accountManager = new AccountManager(connection, input);
 
             String email;
             long account_number;
@@ -58,6 +59,18 @@ public class BankingApp {
                                 System.out.print("Ваш выбор: ");
                                 choice2 = input.nextInt();
                                 switch (choice2){
+                                    case 1:
+                                        accountManager.debit_money(account_number);
+                                        break;
+                                    case 2:
+                                        accountManager.credit_money(account_number);
+                                        break;
+                                    case 3:
+                                        accountManager.transfer_money(account_number);
+                                        break;
+                                    case 4:
+                                        accountManager.getGeneralBalance(account_number);
+                                        break;
                                     case 5:
                                         break;
                                     default:

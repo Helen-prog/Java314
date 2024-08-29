@@ -54,6 +54,7 @@ public class User {
         String password = input.nextLine();
 
         String login_query = "SELECT * FROM user WHERE email = ? AND password = ?";
+
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(login_query);
             preparedStatement.setString(1, email);
