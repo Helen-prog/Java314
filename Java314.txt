@@ -17,3 +17,10 @@ executeUpdate (изменение данных)
 execute
 
 ReservationSystem
+
+Maven - это инструмент для автоматизации сборки проектов на основе описания их структуры в файлах на языке POM (Project Object Model)
+
+
+
+
+
