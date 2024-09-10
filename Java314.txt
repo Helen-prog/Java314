@@ -20,6 +20,50 @@ ReservationSystem
 
 Maven - это инструмент для автоматизации сборки проектов на основе описания их структуры в файлах на языке POM (Project Object Model)
 
+jackson core
+
+http://localhost:8080/
+
+MVC
+
+Model - database
+	- User
+	- UserDao
+View - web
+Controller - service
+	- UserDto
+	- UserService
+
+jakarta servlet
+
+
+Java EE - Java Enterprice Edition
+Jakarta EE
+
+
+http://localhost:8080/first
+
+file:///D:/Python317/HTML/float/file.php?first-name=Olga&psw=dfsdf
+file:///D:/Python317/HTML/float/index.html?first-name=Olga&psw=123456#file.php
+
+file:///D:/Python317/HTML/float/index.html#file.php
+
+
+SecondServlet
+
+
+http://localhost:8080/second?param1=30&param2=45&age=18&name=Andrey&name=Petr
+
+firstpost.html
+
+BookWebApp
+
+MySQL Connector/J
+
+RegisterServlet
+BookListServlet
+EditScreenServlet
+EditServlet
 
 
 

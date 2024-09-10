@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header, footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+header {
+    background: orange;
+}
+
+footer {
+    background: yellowgreen;
+}
+
+section {
+    background: yellow;
+    padding: 20px;
+}
