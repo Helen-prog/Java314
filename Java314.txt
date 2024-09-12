@@ -66,5 +66,26 @@ EditScreenServlet
 EditServlet
 
 
+JSP - Java (Jakarta) Server Page
 
+JSP Scriplet
+<% код Java %>
 
+JSP Declaration
+<%! обявление данных %>
+
+JSP Директивы
+<%@ %>
+
+Expression Language EL
+${attribute}
+
+Java Bean
+
+Jakarta Standard Tag Library (JSTL)
+
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@ taglib prefix="fmt" uri="jakarta.tags.formating" %>
+<%@ taglib prefix="sql" uri="jakarta.tags.sql" %>
+<%@ taglib prefix="xml" uri="jakarta.tags.xml" %>
+<%@ taglib prefix="fn" uri="jakarta.tags.functions" %>
